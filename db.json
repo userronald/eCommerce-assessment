@@ -1,0 +1,737 @@
+{
+  "users": [
+    {
+      "id": "user-001",
+      "name": "Alex Johnson",
+      "email": "alex.johnson@example.com",
+      "password": "demo-user-123",
+      "role": "customer",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=160&q=80",
+      "createdAt": "2026-01-15T10:30:00.000Z"
+    },
+    {
+      "id": "user-002",
+      "name": "Morgan Lee",
+      "email": "morgan.lee@example.com",
+      "password": "demo-user-123",
+      "role": "customer",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=160&q=80",
+      "createdAt": "2026-02-02T14:15:00.000Z"
+    },
+    {
+      "id": "admin-001",
+      "name": "Commerce Administrator",
+      "email": "admin@commerce-demo.local",
+      "password": "demo-admin-123",
+      "role": "admin",
+      "avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=160&q=80",
+      "createdAt": "2025-12-01T08:00:00.000Z"
+    },
+    {
+      "name": "Cristiano Ronaldo",
+      "email": "cr7@gmail.com",
+      "password": "Ronaldo@123",
+      "role": "customer",
+      "createdAt": "2026-09-22T14:40:19.831Z",
+      "id": "Imy_--07jHY"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat-audio",
+      "name": "Audio",
+      "slug": "audio",
+      "description": "Headphones, speakers, and everyday listening essentials.",
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=900&q=80",
+      "productCount": 4
+    },
+    {
+      "id": "cat-computing",
+      "name": "Computing",
+      "slug": "computing",
+      "description": "Laptops, monitors, keyboards, and desk-ready technology.",
+      "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=900&q=80",
+      "productCount": 5
+    },
+    {
+      "id": "cat-mobile",
+      "name": "Mobile",
+      "slug": "mobile",
+      "description": "Phones and accessories for work and life on the move.",
+      "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=900&q=80",
+      "productCount": 4
+    },
+    {
+      "id": "cat-cameras",
+      "name": "Cameras",
+      "slug": "cameras",
+      "description": "Cameras, lenses, and tools for making photographs.",
+      "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=900&q=80",
+      "productCount": 3
+    },
+    {
+      "id": "cat-wearables",
+      "name": "Wearables",
+      "slug": "wearables",
+      "description": "Smart watches and fitness technology.",
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=900&q=80",
+      "productCount": 3
+    },
+    {
+      "id": "cat-home-office",
+      "name": "Home Office",
+      "slug": "home-office",
+      "description": "Practical upgrades for a focused, comfortable workspace.",
+      "image": "https://images.unsplash.com/photo-1497215842964-222b430dc094?w=900&q=80",
+      "productCount": 5
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-001",
+      "name": "AeroSound Pro Headphones",
+      "brand": "Auraline",
+      "category": "Audio",
+      "price": 179.99,
+      "originalPrice": 219.99,
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=900&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=900&q=80",
+        "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=900&q=80",
+        "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=900&q=80"
+      ],
+      "description": "Wireless over-ear headphones with adaptive noise cancellation and a warm, detailed sound profile.",
+      "specifications": {
+        "battery": "32 hours",
+        "connection": "Bluetooth 5.3",
+        "weight": "258 g",
+        "warranty": "2 years"
+      },
+      "rating": 4.8,
+      "stock": 18,
+      "featured": true
+    },
+    {
+      "id": "prod-002",
+      "name": "StudioBeat Mini Earbuds",
+      "brand": "Auraline",
+      "category": "Audio",
+      "price": 69.99,
+      "originalPrice": 89.99,
+      "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=900&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=900&q=80",
+        "https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?w=900&q=80"
+      ],
+      "description": "Compact true wireless earbuds with a pocket-sized charging case and clear call microphones.",
+      "specifications": {
+        "battery": "8 hours, 28 with case",
+        "connection": "Bluetooth 5.2",
+        "waterResistance": "IPX4",
+        "warranty": "1 year"
+      },
+      "rating": 4.4,
+      "stock": 42,
+      "featured": false
+    },
+    {
+      "id": "prod-003",
+      "name": "Northstar Home Speaker",
+      "brand": "Northstar",
+      "category": "Audio",
+      "price": 129,
+      "originalPrice": 129,
+      "image": "https://images.unsplash.com/photo-1545454675-3531b543be5d?w=900&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1545454675-3531b543be5d?w=900&q=80",
+        "https://images.unsplash.com/photo-1589003077984-894e133dabab?w=900&q=80"
+      ],
+      "description": "Room-filling smart speaker with balanced bass, multi-room pairing, and a calm fabric finish.",
+      "specifications": {
+        "power": "40 W",
+        "connection": "Wi-Fi and Bluetooth",
+        "voiceAssistant": "Built-in",
+        "warranty": "2 years"
+      },
+      "rating": 4.6,
+      "stock": 0,
+      "featured": true
+    },
+    {
+      "id": "prod-004",
+      "name": "Pulse Sport Headset",
+      "brand": "Verve",
+      "category": "Audio",
+      "price": 54.5,
+      "originalPrice": 64.5,
+      "image": "https://images.unsplash.com/photo-1578319439584-104c94d37305?w=900&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1578319439584-104c94d37305?w=900&q=80",
+        "https://images.unsplash.com/photo-1487215078519-e21cc028cb29?w=900&q=80"
+      ],
+      "description": "Sweat-resistant wireless headset designed for training sessions and daily commutes.",
+      "specifications": {
+        "battery": "24 hours",
+        "connection": "Bluetooth 5.1",
+        "waterResistance": "IPX5",
+        "warranty": "1 year"
+      },
+      "rating": 4.2,
+      "stock": 27,
+      "featured": false
+    },
+    {
+      "id": "prod-005",
+      "name": "Atlas Air 14 Laptop",
+      "brand": "Atlas",
+      "category": "Computing",
+      "price": 999,
+      "originalPrice": 1199,
+      "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=900&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=900&q=80",
+        "https://images.unsplash.com/photo-1517336714739-489689fd1ca8?w=900&q=80",
+        "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=900&q=80"
+      ],
+      "description": "A lightweight 14-inch laptop with all-day battery life for creative work and everyday productivity.",
+      "specifications": {
+        "processor": "Core Ultra 7",
+        "memory": "16 GB",
+        "storage": "512 GB SSD",
+        "display": "14-inch 2.8K"
+      },
+      "rating": 4.9,
+      "stock": 9,
+      "featured": true
+    },
+    {
+      "id": "prod-006",
+      "name": "PixelForge Creator 16",
+      "brand": "PixelForge",
+      "category": "Computing",
+      "price": 1649.99,
+      "originalPrice": 1799.99,
+      "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=900&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=900&q=80",
+        "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=900&q=80"
+      ],
+      "description": "High-performance creator laptop with a color-accurate display and dedicated graphics.",
+      "specifications": {
+        "processor": "Ryzen 9",
+        "memory": "32 GB",
+        "storage": "1 TB SSD",
+        "display": "16-inch 4K OLED"
+      },
+      "rating": 4.7,
+      "stock": 6,
+      "featured": true
+    },
+    {
+      "id": "prod-007",
+      "name": "ClearView 27 Monitor",
+      "brand": "Lumio",
+      "category": "Computing",
+      "price": 329.99,
+      "originalPrice": 379.99,
+      "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=900&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=900&q=80",
+        "https://images.unsplash.com/photo-1585790050230-5dd28404ccb9?w=900&q=80"
+      ],
+      "description": "A crisp 27-inch QHD monitor with a height-adjustable stand for a more comfortable desk.",
+      "specifications": {
+        "resolution": "2560 x 1440",
+        "refreshRate": "100 Hz",
+        "ports": "USB-C, HDMI, DisplayPort",
+        "panel": "IPS"
+      },
+      "rating": 4.5,
+      "stock": 14,
+      "featured": false
+    },
+    {
+      "id": "prod-008",
+      "name": "Keynest Mechanical Keyboard",
+      "brand": "Keynest",
+      "category": "Computing",
+      "price": 119,
+      "originalPrice": 139,
+      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=900&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=900&q=80",
+        "https://images.unsplash.com/photo-1595225476474-87563907a212?w=900&q=80"
+      ],
+      "description": "A compact mechanical keyboard with tactile switches, hot-swap sockets, and quiet backlighting.",
+      "specifications": {
+        "layout": "75 percent",
+        "switches": "Tactile hot-swap",
+        "connection": "USB-C and Bluetooth",
+        "material": "Aluminum frame"
+      },
+      "rating": 4.6,
+      "stock": 31,
+      "featured": false
+    },
+    {
+      "id": "prod-009",
+      "name": "Orbit Ergonomic Mouse",
+      "brand": "Keynest",
+      "category": "Computing",
+      "price": 79.95,
+      "originalPrice": 79.95,
+      "image": "https://images.unsplash.com/photo-1527814050087-3793815479db?w=900&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1527814050087-3793815479db?w=900&q=80",
+        "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?w=900&q=80"
+      ],
+      "description": "A precision wireless mouse shaped for long work sessions and easy multi-device switching.",
+      "specifications": {
+        "sensors": "26,000 DPI",
+        "connection": "Bluetooth and 2.4 GHz",
+        "battery": "70 days",
+        "buttons": "6 programmable"
+      },
+      "rating": 4.3,
+      "stock": 23,
+      "featured": false
+    },
+    {
+      "id": "prod-010",
+      "name": "Terra X Smartphone",
+      "brand": "Terra",
+      "category": "Mobile",
+      "price": 749,
+      "originalPrice": 799,
+      "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=900&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=900&q=80",
+        "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=900&q=80"
+      ],
+      "description": "A bright, durable smartphone with a fast display, versatile camera system, and two-day battery.",
+      "specifications": {
+        "display": "6.6-inch OLED",
+        "storage": "256 GB",
+        "camera": "50 MP triple camera",
+        "network": "5G"
+      },
+      "rating": 4.7,
+      "stock": 11,
+      "featured": true
+    },
+    {
+      "id": "prod-011",
+      "name": "Terra Pocket 5G",
+      "brand": "Terra",
+      "category": "Mobile",
+      "price": 399.99,
+      "originalPrice": 449.99,
+      "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=900&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=900&q=80",
+        "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?w=900&q=80"
+      ],
+      "description": "A capable 5G phone with a compact build, smooth performance, and a bright everyday camera.",
+      "specifications": {
+        "display": "6.1-inch OLED",
+        "storage": "128 GB",
+        "camera": "48 MP dual camera",
+        "network": "5G"
+      },
+      "rating": 4.4,
+      "stock": 20,
+      "featured": false
+    },
+    {
+      "id": "prod-012",
+      "name": "FlexCharge Travel Kit",
+      "brand": "Northstar",
+      "category": "Mobile",
+      "price": 44.99,
+      "originalPrice": 59.99,
+      "image": "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?w=900&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?w=900&q=80",
+        "https://images.unsplash.com/photo-1609592424632-7e8ee84e0bb6?w=900&q=80"
+      ],
+      "description": "A travel-ready charging kit with a compact adapter, braided cable, and universal plug tips.",
+      "specifications": {
+        "power": "65 W",
+        "ports": "2 USB-C, 1 USB-A",
+        "cableLength": "1.5 m",
+        "warranty": "1 year"
+      },
+      "rating": 4.5,
+      "stock": 58,
+      "featured": false
+    },
+    {
+      "id": "prod-013",
+      "name": "SnapFrame Mirrorless Camera",
+      "brand": "Lumio",
+      "category": "Cameras",
+      "price": 1199,
+      "originalPrice": 1299,
+      "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=900&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=900&q=80",
+        "https://images.unsplash.com/photo-1606980707986-8f7b5f2e7d5e?w=900&q=80",
+        "https://images.unsplash.com/photo-1510127034890-ba27508e9f1c?w=900&q=80"
+      ],
+      "description": "A compact mirrorless camera that combines quick autofocus with rich color for travel and street photography.",
+      "specifications": {
+        "sensor": "24.2 MP APS-C",
+        "video": "4K at 60 fps",
+        "mount": "L-mount",
+        "screen": "3-inch articulating"
+      },
+      "rating": 4.8,
+      "stock": 4,
+      "featured": true
+    },
+    {
+      "id": "prod-014",
+      "name": "Vista Prime 35mm Lens",
+      "brand": "Lumio",
+      "category": "Cameras",
+      "price": 449,
+      "originalPrice": 499,
+      "image": "https://images.unsplash.com/photo-1606980707986-8f7b5f2e7d5e?w=900&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1606980707986-8f7b5f2e7d5e?w=900&q=80",
+        "https://images.unsplash.com/photo-1617005082139-548c4b9b6e56?w=900&q=80"
+      ],
+      "description": "A fast 35mm prime lens with soft background rendering and sharp detail from edge to edge.",
+      "specifications": {
+        "focalLength": "35 mm",
+        "aperture": "f/1.4",
+        "mount": "L-mount",
+        "minimumFocus": "0.3 m"
+      },
+      "rating": 4.7,
+      "stock": 8,
+      "featured": false
+    },
+    {
+      "id": "prod-015",
+      "name": "TrailCam Action 4K",
+      "brand": "Verve",
+      "category": "Cameras",
+      "price": 249.99,
+      "originalPrice": 299.99,
+      "image": "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=900&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=900&q=80",
+        "https://images.unsplash.com/photo-1512790182412-b19e6d62bc39?w=900&q=80"
+      ],
+      "description": "A rugged action camera with stabilized 4K video for weekends, water, and fast-moving adventures.",
+      "specifications": {
+        "video": "4K at 60 fps",
+        "waterResistance": "10 m without case",
+        "stabilization": "6-axis",
+        "battery": "110 minutes"
+      },
+      "rating": 4.3,
+      "stock": 16,
+      "featured": false
+    },
+    {
+      "id": "prod-016",
+      "name": "Arc Smartwatch S2",
+      "brand": "Northstar",
+      "category": "Wearables",
+      "price": 229,
+      "originalPrice": 279,
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=900&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=900&q=80",
+        "https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=900&q=80"
+      ],
+      "description": "A slim smartwatch with health tracking, thoughtful notifications, and a bright always-on display.",
+      "specifications": {
+        "display": "1.8-inch AMOLED",
+        "battery": "7 days",
+        "waterResistance": "5 ATM",
+        "compatibility": "iOS and Android"
+      },
+      "rating": 4.6,
+      "stock": 13,
+      "featured": true
+    },
+    {
+      "id": "prod-017",
+      "name": "Verve Fit Band",
+      "brand": "Verve",
+      "category": "Wearables",
+      "price": 79.99,
+      "originalPrice": 99.99,
+      "image": "https://images.unsplash.com/photo-1557935728-e6d1eaabe558?w=900&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1557935728-e6d1eaabe558?w=900&q=80",
+        "https://images.unsplash.com/photo-1576243345690-4e4b79b63288?w=900&q=80"
+      ],
+      "description": "A lightweight fitness band for steps, sleep, heart rate, and simple daily movement goals.",
+      "specifications": {
+        "battery": "14 days",
+        "waterResistance": "5 ATM",
+        "sensors": "Heart rate and SpO2",
+        "compatibility": "iOS and Android"
+      },
+      "rating": 4.1,
+      "stock": 35,
+      "featured": false
+    },
+    {
+      "id": "prod-018",
+      "name": "Lumen Health Watch",
+      "brand": "Lumio",
+      "category": "Wearables",
+      "price": 349.5,
+      "originalPrice": 349.5,
+      "image": "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=900&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=900&q=80",
+        "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=900&q=80"
+      ],
+      "description": "A premium health watch with detailed workout metrics, recovery insights, and a refined metal case.",
+      "specifications": {
+        "display": "1.9-inch OLED",
+        "battery": "5 days",
+        "waterResistance": "5 ATM",
+        "case": "Recycled aluminum"
+      },
+      "rating": 4.5,
+      "stock": 7,
+      "featured": false
+    },
+    {
+      "id": "prod-019",
+      "name": "CalmDesk Standing Desk",
+      "brand": "Solace",
+      "category": "Home Office",
+      "price": 599,
+      "originalPrice": 699,
+      "image": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=900&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=900&q=80",
+        "https://images.unsplash.com/photo-1497215842964-222b430dc094?w=900&q=80"
+      ],
+      "description": "A quiet electric standing desk with a generous work surface and four programmable height presets.",
+      "specifications": {
+        "heightRange": "72 to 120 cm",
+        "desktop": "140 x 70 cm",
+        "capacity": "100 kg",
+        "warranty": "5 years"
+      },
+      "rating": 4.8,
+      "stock": 5,
+      "featured": true
+    },
+    {
+      "id": "prod-020",
+      "name": "Solace Desk Lamp",
+      "brand": "Solace",
+      "category": "Home Office",
+      "price": 89,
+      "originalPrice": 109,
+      "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=900&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=900&q=80",
+        "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=900&q=80"
+      ],
+      "description": "A warm, adjustable desk lamp with focused task lighting and a soft evening mode.",
+      "specifications": {
+        "brightness": "900 lumens",
+        "colorTemperature": "2700 to 5000 K",
+        "control": "Touch and app",
+        "power": "USB-C"
+      },
+      "rating": 4.4,
+      "stock": 29,
+      "featured": false
+    },
+    {
+      "id": "prod-021",
+      "name": "FocusMat Desk Pad",
+      "brand": "Keynest",
+      "category": "Home Office",
+      "price": 34.99,
+      "originalPrice": 39.99,
+      "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=900&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=900&q=80",
+        "https://images.unsplash.com/photo-1497215842964-222b430dc094?w=900&q=80"
+      ],
+      "description": "A durable felt desk pad that keeps keyboards steady and gives a workspace a calmer visual center.",
+      "specifications": {
+        "size": "90 x 40 cm",
+        "material": "Recycled felt",
+        "base": "Non-slip rubber",
+        "care": "Spot clean"
+      },
+      "rating": 4.2,
+      "stock": 61,
+      "featured": false
+    },
+    {
+      "id": "prod-022",
+      "name": "Breeze USB-C Dock",
+      "brand": "Atlas",
+      "category": "Home Office",
+      "price": 149.99,
+      "originalPrice": 179.99,
+      "image": "https://images.unsplash.com/photo-1625842268584-8f3296236761?w=900&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1625842268584-8f3296236761?w=900&q=80",
+        "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?w=900&q=80"
+      ],
+      "description": "A compact USB-C dock that turns a laptop into a flexible workstation with one connected cable.",
+      "specifications": {
+        "ports": "2 HDMI, USB-C, 3 USB-A, Ethernet",
+        "powerDelivery": "100 W",
+        "displaySupport": "Dual 4K",
+        "warranty": "2 years"
+      },
+      "rating": 4.5,
+      "stock": 18,
+      "featured": false
+    },
+    {
+      "id": "prod-023",
+      "name": "CloudRest Office Chair",
+      "brand": "Solace",
+      "category": "Home Office",
+      "price": 429,
+      "originalPrice": 499,
+      "image": "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?w=900&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?w=900&q=80",
+        "https://images.unsplash.com/photo-1592078615290-033ee584e267?w=900&q=80"
+      ],
+      "description": "A supportive ergonomic chair with adjustable lumbar tension and breathable mesh for long workdays.",
+      "specifications": {
+        "adjustments": "Seat, armrest, lumbar, tilt",
+        "material": "Breathable mesh",
+        "capacity": "135 kg",
+        "warranty": "3 years"
+      },
+      "rating": 4.7,
+      "stock": 3,
+      "featured": true
+    },
+    {
+      "id": "prod-024",
+      "name": "Northstar Smart Display",
+      "brand": "Northstar",
+      "category": "Home Office",
+      "price": 199,
+      "originalPrice": 249,
+      "image": "https://images.unsplash.com/photo-1558008258-3256797b43f3?w=900&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1558008258-3256797b43f3?w=900&q=80",
+        "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=900&q=80"
+      ],
+      "description": "A compact smart display for calendars, timers, video calls, and ambient information at a glance.",
+      "specifications": {
+        "display": "10-inch HD touchscreen",
+        "camera": "8 MP with privacy shutter",
+        "connection": "Wi-Fi 6",
+        "speakers": "Stereo"
+      },
+      "rating": 4.3,
+      "stock": 10,
+      "featured": false
+    }
+  ],
+  "orders": [
+    {
+      "id": "order-1001",
+      "userId": "user-001",
+      "status": "delivered",
+      "createdAt": "2026-08-28T11:45:00.000Z",
+      "customer": {
+        "name": "Alex Johnson",
+        "email": "alex.johnson@example.com",
+        "shippingAddress": {
+          "line1": "18 Willow Street",
+          "city": "Portland",
+          "state": "OR",
+          "postalCode": "97205",
+          "country": "United States"
+        }
+      },
+      "items": [
+        {
+          "productId": "prod-001",
+          "name": "AeroSound Pro Headphones",
+          "brand": "Auraline",
+          "quantity": 1,
+          "unitPrice": 179.99,
+          "total": 179.99
+        },
+        {
+          "productId": "prod-021",
+          "name": "FocusMat Desk Pad",
+          "brand": "Keynest",
+          "quantity": 1,
+          "unitPrice": 34.99,
+          "total": 34.99
+        }
+      ],
+      "payment": {
+        "method": "card",
+        "lastFour": "4242",
+        "capturedAt": "2026-08-28T11:46:00.000Z"
+      },
+      "subtotal": 214.98,
+      "discount": 21.5,
+      "shipping": 0,
+      "total": 193.48
+    },
+    {
+      "id": "order-1002",
+      "userId": "user-002",
+      "status": "processing",
+      "createdAt": "2026-09-16T16:20:00.000Z",
+      "customer": {
+        "name": "Morgan Lee",
+        "email": "morgan.lee@example.com",
+        "shippingAddress": {
+          "line1": "742 Market Avenue",
+          "city": "Austin",
+          "state": "TX",
+          "postalCode": "78701",
+          "country": "United States"
+        }
+      },
+      "items": [
+        {
+          "productId": "prod-007",
+          "name": "ClearView 27 Monitor",
+          "brand": "Lumio",
+          "quantity": 1,
+          "unitPrice": 329.99,
+          "total": 329.99
+        },
+        {
+          "productId": "prod-009",
+          "name": "Orbit Ergonomic Mouse",
+          "brand": "Keynest",
+          "quantity": 2,
+          "unitPrice": 79.95,
+          "total": 159.9
+        }
+      ],
+      "payment": {
+        "method": "card",
+        "lastFour": "1881",
+        "capturedAt": "2026-09-16T16:21:00.000Z"
+      },
+      "subtotal": 489.89,
+      "discount": 0,
+      "shipping": 12,
+      "total": 501.89
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
