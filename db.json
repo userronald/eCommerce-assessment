@@ -731,6 +731,72 @@
       "discount": 0,
       "shipping": 12,
       "total": 501.89
+    },
+    {
+      "id": "VtNzLgyXwxE",
+      "orderId": "order-ddbf284b",
+      "userId": "Imy_--07jHY",
+      "customerName": "Cristiano Ronaldo",
+      "customerEmail": "cr7@gmail.com",
+      "customer": {
+        "name": "Cristiano Ronaldo",
+        "email": "cr7@gmail.com",
+        "phone": "876031633",
+        "shippingAddress": {
+          "address": "muttom",
+          "city": "nagercoil",
+          "state": "Tamil Nadu",
+          "postalCode": "629202"
+        }
+      },
+      "items": [
+        {
+          "productId": "prod-013",
+          "name": "SnapFrame Mirrorless Camera",
+          "brand": "Lumio",
+          "quantity": 3,
+          "unitPrice": 1199,
+          "total": 3597
+        },
+        {
+          "productId": "prod-005",
+          "name": "Atlas Air 14 Laptop",
+          "brand": "Atlas",
+          "quantity": 1,
+          "unitPrice": 999,
+          "total": 999
+        },
+        {
+          "productId": "prod-006",
+          "name": "PixelForge Creator 16",
+          "brand": "PixelForge",
+          "quantity": 3,
+          "unitPrice": 1649.99,
+          "total": 4949.97
+        },
+        {
+          "productId": "prod-011",
+          "name": "Terra Pocket 5G",
+          "brand": "Terra",
+          "quantity": 2,
+          "unitPrice": 399.99,
+          "total": 799.98
+        },
+        {
+          "productId": "prod-020",
+          "name": "Solace Desk Lamp",
+          "brand": "Solace",
+          "quantity": 5,
+          "unitPrice": 89,
+          "total": 445
+        }
+      ],
+      "subtotal": 10790.95,
+      "discount": 0,
+      "total": 10790.95,
+      "finalTotal": 10790.95,
+      "status": "Pending",
+      "createdAt": "2026-09-23T11:03:48.252Z"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

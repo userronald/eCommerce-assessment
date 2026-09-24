@@ -2,7 +2,7 @@
 
 ## Overview
 
-Commerce Assessment Store is a frontend-only e-commerce application created for a Frontend Developer technical assessment. It demonstrates product discovery, authentication, cart and wishlist workflows, checkout with simulated order creation, customer support, and an admin management area.
+E-Commerce Assessment Store is a frontend-only e-commerce application created for My technical assessment. It demonstrates product discovery, authentication, cart and wishlist workflows, checkout with simulated order creation, customer support, and an admin management area.
 
 The application uses JSON Server as a local mock REST API. It does not include a real backend, payment provider, Firebase integration, or production authentication system.
 
